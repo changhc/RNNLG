@@ -7,10 +7,10 @@ import sys
 import os
 import numpy as np
 
-from utils.commandparser    import RNNLGOptParser
-from generator.net          import Model
-from generator.ngram        import Ngram
-from generator.knn          import KNN
+from modules.utils.commandparser    import RNNLGOptParser
+from modules.generator.net          import Model
+#from modules.generator.ngram        import Ngram
+#from modules.generator.knn          import KNN
 
 import warnings
 warnings.simplefilter("ignore", DeprecationWarning)
